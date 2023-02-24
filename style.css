@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url("back.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 5%;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+ul{
+    margin-top: 2%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: 3%;
+    transition: .3s ease;
+}
+
+ul li a:hover{
+    color: #0ef;  
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    border-radius:50%;
+    position: absolute;
+    box-shadow: 1px 5px 10px 10px #0ef;
+    height: 100%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 25%;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.info h1{
+    font-size: 45px;
+    color: white;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+
+.info span{
+    color: #0ef;
+}
+
+.icons img{
+    
+    width: 2.5%;
+    margin-top: 2%;
+    margin-left: 8%;
+    padding: 0;
+}
